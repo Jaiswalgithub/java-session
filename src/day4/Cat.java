@@ -30,6 +30,7 @@ public class Cat {
         System.out.println("Age of cat1:" +thor.age);
         System.out.println("Color of cat1:" +thor.color);
         System.out.println("Breed of cat1:" +thor.breed);
+        thor.sleep();
         System.out.println("============");
 
         rambo.name = "Rambo";
@@ -40,10 +41,11 @@ public class Cat {
         System.out.println("Age of cat2:" +rambo.age);
         System.out.println("Color of cat2:" +rambo.color);
         System.out.println("Breed of cat2:" +rambo.breed);
+        rambo.play();
         System.out.println("============");
 
-        thor.sleep();
-        rambo.play();
+
+
 
     }
 }
