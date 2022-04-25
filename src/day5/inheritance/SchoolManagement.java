@@ -14,7 +14,7 @@ public class SchoolManagement {
         teacher1.setName("Taman");
         teacher1.setGender(Gender.MALE);
         teacher1.setSubject("JAVA");
-        System.out.println("Subject:" +teacher1.getSubject());
+        System.out.println("Teacher1 Subject:" +teacher1.getSubject());
     }
 
 }
