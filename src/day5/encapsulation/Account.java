@@ -49,4 +49,8 @@ public class Account {
     public void setSocialSecurityNumber(String socialSecurityNumber) {
         this.socialSecurityNumber = socialSecurityNumber;
     }
+
+    public void transferBalance(Account fromAccount, Account toAccount, double amountToBeTransferred){
+
+    }
 }

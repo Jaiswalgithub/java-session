@@ -20,5 +20,19 @@ public class Bank {
         System.out.println("AccountType:" +account1.getAccountType());
         System.out.println("Account Balance:" +account1.getAccountBalance());
  //     System.out.println("SSN:" +account1.getSocialSecurityNumber());(encapsulation provides protection)
+
+        Account account2 = new Account();
+//        account2.name = "Taman";
+        account2.setName("Tamanasd");
+//        account2.accountNumber = "asdasdasd231";
+        account2.setAccountNumber("asddasd231");
+//        account2.accountType = AccountType.STUDENT;
+        account2.setAccountType(AccountType.STUDENT);
+//        account2.accountBalance = 20000;
+        account2.setAccountBalance(2000);
+//        account2.socialSecurityNumber = "tsh441144";
+        account2.setSocialSecurityNumber("tsh451144");
+
+        account1.transferBalance(account1, account2, 500);
     }
 }
