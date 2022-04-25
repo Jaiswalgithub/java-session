@@ -10,6 +10,7 @@ public class PetStore {
         thor.age = 2;
         thor.color = "Black";
         thor.breed = "A";
+        System.out.println("Name:" +thor.name);
 
         rambo.name = "Rambo";
         rambo.age = 3;
